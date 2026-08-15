@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blood donation form</title>
+</head>
+<body marginwidth="70">
+    <center><font size="8" color="darkred">Blood Donation Registration</font></center>
+    <hr>
+    <h1 align="center">personal information</h1>
+    
+<b><form action="action.js" >
+    <label for="name">Full Name :- </label>
+    <input type="text" placeholder="Enter your fullname" width="70" id="name">
+
+    <br><br>
+    <label for="fname">Father's Name :- </label>
+    <input type="text" placeholder="Enter your Father name " width="70" id="fname">
+
+    <br><br>
+    <label for="mname">Mother's Name :- </label>
+    <input type="text" placeholder="Enter your mother name " width="70" id="mname">
+
+    <br><br>
+    <label for="Age">Age :- </label>
+    <input type="number" placeholder="Enter your age " width="70" id="Age">
+
+    <br><br>
+    <label for="dob">Date of birth :- </label>
+    <input type="date" placeholder="Enter your date of birth " width="70" id="dob">
+
+    <br><br>
+    <label for="gender">Gender :- </label>
+    <input type="radio" value="male" id="gender" name="gender">male
+    <input type="radio" value="female" id="gender" name="gender">female
+
+    <br><br>
+    <label for="BG">Blood Group :-</label>
+
+    <select name="blood Group" id="BG">
+        <option value="">--blood group--</option>
+        <option value="A+">  A+   </option>
+        <option value="A-">  A-   </option>
+        <option value="B+">  B+   </option>
+        <option value="B-">  B-   </option>
+        <option value="AB+">  AB+   </option>
+        <option value="AB-">  AB-   </option>
+        <option value="O+">  O+   </option>
+        <option value="O-">  O-   </option>
+    </select>
+
+    <br><br>
+    <label for="Height">Height :- </label>
+    <input type="number" placeholder="Enter your height " width="70" id="Height">
+
+    <br><br>
+    <label for="Weight">Weight :- </label>
+    <input type="number" placeholder="Enter your Weight " width="70" id="Weight">
+
+    <br><br>
+    <label for="file">photo :- </label>
+    <input type="file" placeholder="photo " width="70" id="file">
+    <br>
+    <hr>
+
+    <h1 align="center">Contact information</h1>
+    
+    <label for="pn">Enter your Phone number :- </label>
+    <input type="tel" placeholder="phone number" id="pn" maxlength="9" > 
+
+    <br><br>
+    <label for="ea">Enter your email address :- </label>
+    <input type="email" placeholder="Enter email address" id="ea" > 
+
+    <br><br>
+    <p>Enter your complete address :- </p>
+    <textarea name="address" rows="3" cols="30" width="70" placeholder="Enter your address"></textarea>
+
+    <br><br>
+    <label for="file">adhar card :- </label>
+    <input type="file"  width="70" id="file" required>
+    <br>
+    <hr>
+
+    <h1 align="center">health information </h1>
+    <font>Have you donated blood before?</font>
+    <input type="radio" name="donate" value="Yes"> Yes
+    <input type="radio" name="donate" value="No"> No
+
+    <br><br>
+    <font>Current Health Status ?</font>
+    <br>
+    <input type="radio" name="health" value="G"> Good
+    <br>
+    <input type="radio" name="health" value="A"> Average
+    <br>
+    <input type="radio" name="health" value="E"> Excellent
+
+    <br><br>
+    <label for="dis">Medical Conditions (select all that apply) :- </label>
+    <br>
+    <input type="checkbox" value="diabetes"> diabetes
+    <br>
+    <input type="checkbox" value="asthma"> asthma
+    <br>
+    <input type="checkbox" value="hbp"> Hgh Blood pressure
+    <br>
+    <input type="checkbox" value="lbp"> Low blood pressure
+    <br>
+    <input type="checkbox" value="N"> None
+
+    <br><br>
+    <font>Enter the feedback </font> <br>
+    <textarea name="feedback" cols="30" rows="4" placeholder="enter the feedback" ></textarea>
+
+    <br><br>
+    <a href="thank.html">
+    <center><input type="button" value="submit" placeholder="submit"> </center>
+    </a>
+    
+</form></b>
+</body>
+</html>
